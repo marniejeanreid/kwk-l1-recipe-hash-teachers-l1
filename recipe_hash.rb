@@ -64,10 +64,5 @@ end
 
 #6: Return the number of ingredients in the `perfect_10_recipe` hash.
 def number_ingredients(perfect_10_ingredients)
-  # count = 0
-  # perfect_10_ingredients.each_key do |ingredient|
-  #   count += 1
-  #   return count
-  # end
   perfect_10_ingredients.length
 end
